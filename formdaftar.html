@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Pendaftaran Siswa</title>
+        <style>
+            h2{
+                color: rgb(49, 142, 235);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            form{
+                background-color: rgb(163, 211, 211);
+            }
+            p {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: medium;
+                color: black;
+            }
+            body {
+                background-color: lightgrey;
+                width: 85%;
+                border: 15px solid black;
+                padding: 50px;
+                margin: 20px;
+            }
+    
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h2>
+                <center>Selamat Datang di Halaman Pendaftaran SMA Negeri 5 Medan</center>
+            </h2><hr>
+        </header>
+        
+        <form action="" method="GET">
+            <p>Nama Lengkap &emsp;: <input type="text" name="nama"></p>
+            <p>Tempat Lahir &emsp;: <input type="text" name="tempat"></p>
+            <p>Tanggal lahir &emsp;: <input type="date" name="tanggal"></p>
+            <p>Jenis kelamin: </p>
+            <input type="radio" name="jeniskelamin" value="Laki-Laki">Laki-Laki<br>
+            <input type="radio" name="jeniskelamin" value="Perempuan">Perempuan<br>
+            <p>Sekolah Asal &emsp;: <input type="text" name="sekolahasal"></p>
+            <p>Email &emsp;: <input type="email" name="email"></p>
+            <input type="submit" value="Daftar">
+        </form>
+
+        <p>
+            <a href="datasiswa.html">Data Siswa</a>
+        </p>
+
+    </body>
+</html>
